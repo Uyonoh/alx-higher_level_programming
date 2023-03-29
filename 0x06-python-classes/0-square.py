@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 
-class Square():
+"""A python module with a class
+
+Attributes:
+"""
+
+class Square:
     """An empty class that defines a square
 
     Args:
