@@ -39,8 +39,8 @@ def matrix_divided(matrix, div):
         int_float = False
 
     if not (mat_list and sub_lists and int_float):
-        raise TypeError("matrix must be a matrix (list of lists)\
-             of integers/floats")
+        err = "matrix must be a matrix (list of lists) of integers/floats"
+        raise TypeError(err)
 
     n = len(matrix[0])
     for sub in matrix:
